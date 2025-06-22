@@ -1,10 +1,10 @@
 <?php
 // Định nghĩa các hằng số cấu hình kết nối
-define('DATABASE_SERVER', 'localhost');          // Địa chỉ host của MySQL (localhost hoặc IP)
-define('DATABASE_USER', 'root');                 // Tên người dùng MySQL
-define('DATABASE_PASSWORD', 'Ngantrang1603');   // Mật khẩu MySQL
-define('DATABASE_NAME', 'db_php_ver4');                // Tên cơ sở dữ liệu cần kết nối
-define('DATABASE_PORT', '3306');                 // Cổng MySQL đang lắng nghe (mặc định là 3306)
+define('DATABASE_SERVER', '');          // Địa chỉ host của MySQL (localhost hoặc IP)
+define('DATABASE_USER', '');                 // Tên người dùng MySQL
+define('DATABASE_PASSWORD', '');   // Mật khẩu MySQL
+define('DATABASE_NAME', '');                // Tên cơ sở dữ liệu cần kết nối
+define('DATABASE_PORT', '');                 // Cổng MySQL đang lắng nghe (mặc định là 3306)
 
 
 $connection = null;
